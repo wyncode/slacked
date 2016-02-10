@@ -1,9 +1,9 @@
 module Slacked
-  SLACK_PROFILE_IMAGE=':robot_face:'
+  SLACK_PROFILE_IMAGE=':wyncode:'
   SLACK_WEBHOOK_URL_KEY='SLACK_WEBHOOK'
   SLACK_DEFAULT_MESSAGE_KEY='SLACK_DEFAULT_MESSAGE'
   SLACK_DEFAULT_CONFIG= {
-      # icon_emoji: SLACK_PROFILE_IMAGE
+      icon_emoji: SLACK_PROFILE_IMAGE
   }
 
   class << self
